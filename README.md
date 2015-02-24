@@ -1,10 +1,10 @@
-# Example React-Canvas Project for Browser
+# Example [React-Canvas](https://github.com/Flipboard/react-canvas) Project for Browser
 
 ## Getting started
 
 ### Install tools
 
-You can use Node or io.js.  I'll use io.js in this example.
+You can use [Node](http://nodejs.org/) or [io.js](https://iojs.org/en/index.html).  I'll use io.js in this example.
 
     host:~$ mkdir node; cd node
     host:~/node$ wget https://iojs.org/dist/v1.3.0/iojs-v1.3.0-linux-x64.tar.xz
@@ -16,10 +16,10 @@ You can use Node or io.js.  I'll use io.js in this example.
 ### Clone & build project
 
     host:~/node$ cd ~/projects
-    host:~/projects$ git clone <this-repo>
-    host:~/projects$ cd react-canvas-example
-    host:~/projects/react-canvas-example$ npm install react@^0.13.0-beta.1 react-canvas
-    host:~/projects/react-canvas-example$ jsx app.js | browserify - > public/browser.js
+    host:~/projects$ git clone https://github.com/semiosis/react-canvas-browser-example.git
+    host:~/projects$ cd react-canvas-browser-example
+    host:~/projects/react-canvas-browser-example$ npm install react@^0.13.0-beta.1 react-canvas
+    host:~/projects/react-canvas-browser-example$ jsx app.js | browserify - > public/browser.js
 
 ## Developing
 
